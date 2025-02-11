@@ -1,0 +1,48 @@
+.coke-sem-acucar{
+    background: var(---vermelho-degrade);
+    height: 260px;
+    padding: 6rem 3.75rem;
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coke-sem-acucar__titulo , .coke-sem-acucar__texto {
+    color: var(--cor-de-fundo);
+}
+
+.coke-sem-acucar__texto-menor {
+    display: none;
+}
+
+.coke-sem-acucar__titulo {
+    font-size: 2.5rem;
+    /* font-size: 9vw; */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.coke-sem-acucar__texto {
+    font-size: 0.75rem;
+}
+
+.coke-sem-acucar__imagem {
+    position: absolute;
+    top: 58%;
+    width: auto;
+    /* width: 45%; */
+    /*left: 25%; */
+}
+
+.coke-sem-acucar__imagem-desktop {
+    display: none;
+}
+
+.coke-sem-acucar__saiba-mais {
+    display: none;
+}

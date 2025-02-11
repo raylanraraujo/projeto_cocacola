@@ -1,0 +1,33 @@
+.cadastro {
+    background-image: url(../assets/cadastre-se.png);
+    height: 39vh;
+    background-position: 29% 10%;
+    background-repeat: no-repeat;
+    margin: 1rem 1.5rem 2rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.cadastro__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-de-fundo);
+    margin: 0 2rem;
+    position: absolute;
+    top: 68%;
+}
+
+.cadastro__link {
+    color: var(--cor-de-fundo);
+    font-size: 0.75rem;
+    text-decoration: none;
+    background-color: var(--cor-button);
+    padding: 0.7rem 2rem;
+    border-radius: 100px; 
+    position: absolute;
+    top: 95%;
+    left: 28%;
+}    
+   

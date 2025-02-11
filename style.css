@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/studio.css");
+@import url("styles/saiba.css");
+@import url("styles/ofertas.css");
+@import url("styles/coke-sem-acucar.css");
+@import url("styles/localizacao.css");
+@import url("styles/resgate.css");
+@import url("styles/cadastro.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --cinza: #D9D9D9; 
+    --preto-acinzentado: #0B0B0B;
+    --copy: #1C1C1C;
+    --fundo-menu: #DB3534;
+    --cor-button: #F40000;
+    ---vermelho-degrade: linear-gradient(110deg, #F40000 43%, #000000 100%);
+    --fonte-principal: "Poppins", sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+

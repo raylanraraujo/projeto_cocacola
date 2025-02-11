@@ -1,0 +1,32 @@
+.ofertas {
+    background-color: var(--preto-acinzentado);
+    color: var(--cor-de-fundo);
+    border-radius: 16px;
+    text-align: center;
+    padding: 1.5rem 1rem 2rem 1rem;
+    margin: 1.5rem ;
+    
+    position: absolute;
+    top: 1150px;
+    /* left: 50%; */
+    /* transform: translateX(-50%); Centraliza horizontalmente */
+    /* padding: 20px; */
+    z-index: 3;
+}
+
+
+
+.ofertas__titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.ofertas__link {
+    color: var(--cor-de-fundo);
+    font-size: 0.75rem;
+    text-decoration: none;
+    background-color: var(--cor-button);
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+}

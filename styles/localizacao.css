@@ -1,0 +1,45 @@
+.localizacao {
+    background-image: url(../assets/brinde1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* translate: 10% 10%; */
+    /* width: 90%; */
+    height: 384px;
+    margin: 1rem 1.5rem 2rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    color: var(--cor-de-fundo);
+    position: relative;
+    z-index: 1;
+}
+
+.localizaca__texto-menor{
+    display: none;
+}
+
+.localizacao__titulo {
+    width: 267px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    margin: 2rem 3.5rem;
+    /* margin-top: 2rem;
+    margin-left: 3.5rem; */
+}
+
+.localizacao__link {
+    color: var(--cor-de-fundo);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: var(--cor-button);
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    position: absolute;
+    left: 23.5%;
+    top: 96%;
+}
+
+

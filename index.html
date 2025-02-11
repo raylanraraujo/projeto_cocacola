@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <img src="assets/logo.svg" alt="Logo Coca-Cola" class="cabecalho__imagem">
+            <ul class="header__nav">
+                <li class="header__nav__item"><a href="#" class="header__link">Ofertas</a></li>
+                <li class="header__nav__item"> <a href="#" class="header__link">Promoções</a></li>
+                <li class="header__nav__item"><a href="#" class="header__link">Dá o play</a></li>
+                <li class="header__nav__item"><a href="#" class="header__link">Retornáveis</a></li>
+                <li class="header__nav__item"><a href="#" class="header__link">Loja</a></li>
+                <li class="header__nav__item"><a href="#" class="header__link__entrar">Entrar</a></li>
+            </ul>
+
+            <input type="checkbox" id="menu" class="container__botao">
+
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer cabecalho__imagem"></span>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item login" >
+                    <a href="#" class="lista-menu__link">Entrar!</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link link">Ofertas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link link">Promoçoes</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.coca-cola.com.br/daoplay/filmes" class="lista-menu__link link" target="_blank">Dá o play</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link link">Retornáveis</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.coca-cola.com.br/loja" class="lista-menu__link link" target="_blank">Loja</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://www.coca-cola.com.br/faq" class="lista-menu__link link" target="_blank">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="coke-studio">
+            <div class="coke-studio__conteudo">
+                <h1 class="coke-studio__titulo">Coke Studio faz a magia da música acontecer</h1>
+                <p class="coke-studio__texto">Nova plataforma de colisões criativas com artistas emergentes e inovadores.</p> 
+                <a href="#" class="coke-studio__saiba-mais__link">Saiba mais</a>
+            </div>
+            <span class="seta"></span>
+        </section>
+
+        <section class="saiba-mais">
+            <div class="saiba-mais__imagem"></div>
+            <!-- <img src="assets/mulher olhando a geladeira.png" alt="mulher olhando dentro da geladeira com a porta aberta" class="saiba-mais__imagem"> -->
+
+            <div class="saiba-mais__conteudo">
+                <h2 class="saiba-mais__titulo">Opa,<br> abriu a geladeira <br> e tá sem Coca?</h2>
+                <p class="saiba-mais__texto">Peça seu produto Coca‑Cola Na Sua Casa e receba suas bebidas favoritas no dia seguinte!*</p>
+                <a href="#" class="saiba-mais__link">Saiba mais</a>
+                <p class="saiba-mais__asterisco">*Disponível apenas na cidade do Rio de Janeiro</p>
+            </div>
+        </section>
+
+        <section class="ofertas">
+            <div class="ofertas__conteudo">
+                <h2 class="ofertas__titulo">Cupons e benefícios exclusivos da Coca-Cola para você!</h2>
+                <a href="#" class="ofertas__link">Ver todas as ofertas!</a>
+            </div>
+        </section>
+
+        <section class="coke-sem-acucar">
+                <div class="coke-sem-acucar__conteudo">
+                    <p class="coke-sem-acucar__texto-menor">Sem açúcar</p>
+                    <h2 class="coke-sem-acucar__titulo"><p>Deliciosa!</p> <p>Refrescante.</p> <p>Prova aí!</p></h2>
+                    <p class="coke-sem-acucar__texto">Compre Coca‑Cola, sem açúcar.</p>
+                    <a href="#" class="coke-sem-acucar__saiba-mais">Saiba mais</a>
+                </div>
+
+                <img src="assets/coke-sem-acucar.png" alt="imagem da coca--cola sem açúcar" class="coke-sem-acucar__imagem-mobile">
+                <img src="assets/coke-sem-acucar-desktop.png" alt="imagem da coca--cola sem açúcar" class="coke-sem-acucar__imagem-desktop">
+        </section>
+
+        <section class="localizacao">
+                <p class="localizaca__texto-menor">Promoção</p>
+                <h2 class="localizacao__titulo">Confira o que está rolando de promoção na sua região</h2>
+                <a href="#" class="localizacao__link">Busca por localizacão</a>
+        </section>
+
+        <section class="resgate">
+            <div class="resgate__conteudo">
+                <h2 class="resgate__titulo">Esqueceu
+                                sua garrafa retornável
+                                em casa?</h2>
+
+                <p class="resgate__texto">Baixe aqui o cupom da Garrafa Virtual e pague somente o líquido</p>
+
+                <a href="#" class="resgate__link">Resgatar Garrafas!</a>
+            </div>
+            
+        </section>
+
+        <section class="cadastro">
+            <h2 class="cadastro__titulo">Cadastre-se para receber benefícios exclusivos!</h2>
+
+            <a href="#" class="cadastro__link">Quero fazer parte!</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape-mobile">
+            <img src="assets/logo.svg" alt="logo da coca-cola" class="rodape__logo">
+            <ul class="rodape__lista">
+                <li class="rodape__item__navegacao">
+                    <div class="div-navegacao">
+                        <p class="item__texto">Navegue por aqui</p>
+                        <input type="checkbox" id="nav" class="navegacao__botao">
+                        <label for="nav">
+                        <span class="navegacao__arrow"></span>
+                        </label>
+            
+                        <ul class="navegacao__lista">
+                            <li class="lista__item">Ofertas</li>
+                            <li class="lista__item">Promoções</li>
+                            <li class="lista__item">Dá o play</li>
+                            <li class="lista__item">Retornáveis</li>
+                            <li class="lista__item"><a href="https://www.coca-cola.com.br/loja" target="_blank" class="lista__link">Loja</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <hr>
+                <li class="rodape__item__institucional">
+                    <div class="div-institucional">
+                        <p class="item__texto">Institucional</p>
+                        <input type="checkbox" id="instituto" class="institu">
+                        <label for="instituto">
+                        <span class="navegacao__arrow"></span>
+                        </label>
+                        <ul class="institucional__lista">
+                            <li class="lista__item"><a href="https://www.coca-cola.com/br/pt" target="_blank" class="lista__link">Coca-Cola Brasil</a></li>
+                            <li class="lista__item"><a href="https://www.coca-cola.com/br/pt" target="_blank" class="lista__link">Trabalhe conosco</a></li>
+                            <li class="lista__item"><a href="https://www.coca-cola.com/br/pt/legal/privacy-policy#termos-de-uso" target="_blank" class="lista__link">Termos de uso</a></li>
+                            <li class="lista__item"><a href="https://www.coca-cola.com/br/pt/legal/privacy-policy#privacy" target="_blank" class="lista__link">Privacidade</a></li>
+                            <li class="lista__item"><a href="https://investors.coca-colacompany.com/" target="_blank" class="lista__link">Investidores</a></li>
+                        </ul>
+                    </div>
+            
+                </li>
+                <hr>
+                <li class="rodape__item"><a href="https://www.coca-cola.com.br/regulamento" class="rodape__item__link item__texto" target="_blank">Regulamento</a></li>
+                <hr>
+                <li class="rodape__item"><a href="https://www.coca-cola.com.br/faq" class="rodape__item__link item__texto" target="_blank">Perguntas Frequentes</a></li>
+                <hr>
+            </ul>
+            <div class="rodape__contato">
+                <div class="contato__expediente">
+                    <p>(21) 4002-2121</p>
+                    <p>Segunda a Sexta-feira</p>
+                    <p>9h às 18h</p>
+                </div>
+                <div class="contato__redes-socias">
+                    <a href="https://api.whatsapp.com/send?phone=552140022121&text=Oi%2C%20Kora!" target="_blank" class="contato__redes-socias__link">
+                        <p>Fale com a gente! </p>
+                        <img src="assets/icon-whatsapp16.png" alt="icone whatsapp">
+                    </a>
+                    <div class="contato__redes-sociais__icons">
+                        <a href="https://www.instagram.com/cocacola_br/" target="_blank"><img src="assets/icon-instagram.png" alt="icone instagram" class="rede-social__icon"></a>
+                        <a href="https://twitter.com/cocacola_br/" target="_blank"><img src="assets/icon-x.png" alt="ícone X" class="rede-social__icon"></a>
+                        <a href="https://www.facebook.com/cocacolabr/" target="_blank"><img src="assets/icon-facebook.png" alt="ícone facebook" class="rede-social__icon"></a>
+                        <a href="https://www.youtube.com/cocacola" target="_blank"><img src="assets/icon-youtube.png" alt="ícone youtube" class="rede-social__icon"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="rodape__asterisco">Imagens meramente ilustrativas. É permitido um cadastro por CPF. Os itens, quantidades, prazos de validade e disponibilidade dos benefícios, pontos e/ou ofertas podem variar nas diversas regiões e poderão ser limitados por CPF, por dia, por período, por oferta, por Posto de Troca ou parceiro ou pela combinação de um ou mais destes parâmetros, a critério da COCA‑COLA. Os prazos de validade dos benefícios, pontos e/ou ofertas podem variar regionalmente de acordo com as regras de troca de cada ação. Atividades promocionais regularizadas em acordo com a Lei nº 5.768/1971 conterão Regulamentos específicos. Para mais informações, acesse o Regulamento e as Perguntas Frequentes. Canal para CRC 4002‑2121 (tarifa local).</p>
+            <p class="rodape__copy">© 2024 The Coca‑Cola Company, all rights reserved</p>
+        </div>
+
+        <div class="rodape-desk">
+            <div class="rodape-desk__conteudo">
+                <img src="assets/logo.svg" alt="logo da coca-cola" class="rodape-desk__logo">
+    
+                <div class="rodape-desk__navegue">
+                    <ul class="rodape-desk__navegue__lista">
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Navegue por aqui</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Ofertas</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Garrafa virtual</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Retornáveis</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Perguntas frequentes</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Dá o play</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Final mágica (Ifood)</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Rumo à final (Subway)</a></li>
+                    </ul>
+                </div>
+    
+                <div class="rodape-desk__institucional">
+                    <ul class="rodape-desk__institucional__lista">
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Institucional</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Coca-Cola Brasil</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Trabalhe conosco</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Termos de uso</a></li>
+                        <li class="rodape-desk__item-lista"><a href="#" class="rodape-desk__item-lista-link">Privacidade Investidores</a></li>
+                    </ul>
+                </div>
+    
+                <div class="rodape-desk__buttons">
+                    <a href="https://api.whatsapp.com/send?phone=552140022121&text=Oi%2C%20Kora!" target="_blank" class="rodape-desk__buttom whatsapp">
+                        <p class="whatsapp-texto">Fale com a gente!</p>
+                        <img src="assets/icon-whatsapp-red-16.png" alt="icone whatsapp">
+                    </a>
+                    <a href="#" class="rodape-desk__buttom rodape-desk__cadastro">Cadastre-se</a>
+                    <a href="https://www.coca-cola.com.br/regulamento" class="rodape-desk__buttom">Regulamento</a>
+                </div>
+    
+                <div class="rodape-desk__expediente-social">
+                    <div class="rodape-desk__expediente">
+                        <ul class="rodape-desk__expediente__lista">
+                            <li class="rodape-desk__expediente__item">(21) 4002-2121</li>
+                            <li class="rodape-desk__expediente__item">Segunda a Sexta-feira</li>
+                            <li class="rodape-desk__expediente__item">9h às 18h</li>
+                        </ul>
+                    </div>
+                    <div class="rodape-desk__redes-sociais__icons">
+                        <a href="https://www.instagram.com/cocacola_br/" target="_blank"><img src="assets/icon-instagram.png" alt="icone instagram" class="rede-social__icon"></a>
+                        <a href="https://twitter.com/cocacola_br/" target="_blank"><img src="assets/icon-x.png" alt="ícone X" class="rede-social__icon"></a>
+                        <a href="https://www.facebook.com/cocacolabr/" target="_blank"><img src="assets/icon-facebook.png" alt="ícone facebook" class="rede-social__icon"></a>
+                        <a href="https://www.youtube.com/cocacola" target="_blank"><img src="assets/icon-youtube.png" alt="ícone youtube" class="rede-social__icon"></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="rodape-desk__asterisco">
+                <p>Imagens meramente ilustrativas. É permitido um cadastro por CPF. Os itens, quantidades, prazos de validade e disponibilidade dos benefícios, pontos e/ou ofertas podem variar nas diversas regiões e poderão ser limitados por CPF, por dia, por período, por oferta, por Posto de Troca ou parceiro ou pela combinação de um ou mais destes parâmetros, a critério da COCA‑COLA. Os prazos de validade dos benefícios, pontos e/ou ofertas podem variar regionalmente de acordo com as regras de troca de cada ação. Atividades promocionais regularizadas em acordo com a Lei nº 5.768/1971 conterão Regulamentos específicos. Para mais informações, acesse o Regulamento e as Perguntas Frequentes. Canal para CRC 4002‑2121 (tarifa local).</p>
+            </div>
+    
+            <div class="rodape-desk__copy">
+                <p>© 2024 The Coca‑Cola Company, all rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

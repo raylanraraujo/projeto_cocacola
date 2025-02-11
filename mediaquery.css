@@ -1,0 +1,1845 @@
+/*
+Typical Device Breakpoints
+--------------------------
+    Dispositivos muito pequenos (celulares): até 600px
+        @media only screen and (max-width: 600px) {...}
+
+    Dispositivos pequenos (tablets portrait / celulares grandes): de 600px para cima (até 768px)
+        @media only screen and (min-width: 600px) {...}
+
+    Dispositivos médios (tablets landscape): 768px para cima (até 992px)
+        @media only screen and (min-width: 768px) {...}
+
+    Dispositivos largos (desktops/ laptops): 992px para cima (até 1200px)
+        @media only screen and (min-width: 992px) {...}
+
+    Dispositivos extra largos (grandes laptops e monitores): 1200px para cima 
+        @media only screen and (min-width: 1200px) {...}
+*/
+
+
+
+
+
+/*______________________para iphone SE______________________*/
+
+@media screen and (max-width: 375px){
+
+    /*studio*/
+    .coke-studio {
+        height: 480px;
+    }
+
+    .coke-studio__conteudo {
+        padding-top: 15.5rem;
+    }
+    .coke-studio__titulo {
+        font-size: 2.1rem;
+        margin-bottom: 0.8rem;
+        width: 72%;
+    }
+
+    .coke-studio__texto {
+        font-size: 0.9rem;
+        width: 66%;
+    }
+    .seta {
+        background-size: contain;
+        padding: 1.5rem;
+        margin: 6%;
+    }
+
+    /*saiba mais*/
+    .saiba-mais {
+        margin: 2rem 1rem 9.5rem 1rem;
+    }
+
+    .saiba-mais__imagem {
+        display: none;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 2.1rem;
+        line-height: 2.9rem;
+    }
+
+    /*ofertas*/
+    .ofertas {
+        top: 955px;
+        margin: 1rem ;
+    }
+
+    .ofertas__titulo {
+        font-size: 1.5rem;
+    }
+
+    /*coke-sem-acucar*/
+
+    /*localizacao*/
+    .localizacao {
+        margin: 1rem 1rem 2rem 1rem;
+    }
+
+    .localizacao__titulo {
+        margin: 1.7rem;
+        top: 62%;
+    }
+
+    .localizacao__link {
+        left: 21%;
+    }
+
+    .coke-sem-acucar__imagem-desktop {
+        display: none;
+    }
+
+    /*resgate*/
+    .resgate {
+        height: 33vh;
+        margin: 0 0.5rem;
+    }
+
+    .resgate__conteudo {
+        margin: 0.5rem 3rem;
+    }
+
+    .resgate__titulo {
+        padding-right: 8.5rem;
+        font-size: 1.3rem;
+        margin: 0rem;
+    }
+
+    .resgate__texto {
+        margin: 0.5rem 0rem 1rem 0rem;
+        padding-right: 8rem;
+    }
+
+    /*cadastro*/
+    .cadastro {
+        margin: 0rem 1rem 3.5rem 1rem;
+        height: 52vh;
+    }
+
+    .cadastro__titulo {
+        top: 70%;
+    }
+
+    .cadastro__link {
+        left: 24.5%;
+    }
+
+    /*rodape*/
+    .rodape__logo {
+        margin: 3rem 1rem;
+    }
+
+    .rodape__lista {
+        margin: 0 1rem;
+    }
+
+    .item__texto {
+        font-size: 1rem;
+    }
+
+    .contato__expediente {
+        margin-left: 0rem;
+    }
+
+    .rodape__asterisco {
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .navegacao__lista {
+    left: 66%;
+    font-size: 0.9rem;
+    }
+
+    .institucional__lista {
+        left: 49%;
+        font-size: 0.9rem;
+    }
+
+    .rodape-desk {
+        display: none;
+    }
+}
+
+/*______________________para iphone XR______________________*/
+
+@media screen and (min-width:414px) and (max-width: 429px){
+    .coke-studio {
+        height: 645px;
+    }
+
+    .coke-studio__conteudo {
+        padding-top: 21rem;
+    }
+
+    .coke-studio__titulo {
+        margin-bottom: 1.5rem;
+        font-size: 2.3rem;
+        width: 70%;
+    }
+
+    .seta {
+        margin: 14%;
+    }
+
+    .saiba-mais__imagem {
+        display: none;
+    }
+
+    .ofertas {
+        top: 1124px;
+    }
+
+    .coke-sem-acucar__imagem-desktop {
+        display: none;
+    }
+
+    .resgate {
+    margin:  0 1rem;
+    background-size: cover;
+    }
+
+    .navegacao__lista {
+    left: 66%;
+    }
+
+    .institucional__lista {
+    left: 52%;
+    }
+
+    .rodape-desk {
+        display: none;
+    }
+}
+
+/*______________________para iphone 12 pro______________________*/
+@media screen and (min-width:389px) and (max-width: 413px){
+
+    .coke-studio {
+        height: 607px;
+    }
+
+    .coke-studio__conteudo {
+        padding-top: 19.875rem;
+    }
+
+    .coke-studio__titulo {
+        font-size: 2.2rem;
+        margin-bottom: 0.875rem;
+    }
+
+    .seta {
+        margin: 14%;
+        
+    }
+
+    .saiba-mais__imagem {
+        display: none;
+    }
+   
+
+    .ofertas {
+        top: 1130px;
+    }
+
+    .coke-sem-acucar__imagem-desktop {
+        display: none;
+    }
+
+    .localizacao__titulo {
+        margin-left: 2.3rem;
+        width: 267px;
+        top: 60%;
+    }
+
+    .localizacao__link {
+        left: 21%;
+    }
+
+    .resgate{
+        background-size: cover;
+        margin: 0 0.5rem;
+    }
+
+    .resgate__titulo {
+        margin: 0rem;
+
+    }
+    .cadastro {
+        height: 42vh;
+    }
+    .cadastro__link {
+        left: 25%;
+    }
+
+    .navegacao__lista {
+        left: 64%;
+        }
+
+    .institucional__lista {
+        left: 49%;
+        }
+
+    .rodape-desk {
+      display: none;
+    }
+}
+
+/*______________________DESKTOP 1440______________________*/
+@media screen and (min-width: 1400px) {
+
+    /*__________________________header__________________________*/
+    .container {
+        justify-content: flex-start;
+        /* gap: 6rem; */
+    }
+
+    .cabecalho__imagem {
+        padding: 2.125em 6.25rem 2.125rem 13.5rem;
+    } 
+
+    .header__nav {
+        color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: flex-start;
+        gap: 3.75rem;
+    }
+
+    .header__link__entrar {
+    margin-left: 2.5rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+    /*__________________________studio__________________________*/
+
+    .coke-studio{
+        position: relative;
+        height: 900px;
+    }
+
+    .coke-studio__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        margin-left: 13.5rem;
+        padding-top: 20.25rem;
+    }
+
+    .coke-studio__titulo {
+        font-size: 3.5rem;
+        width: 524px;
+        margin-bottom: 0;
+    }
+
+    .coke-studio__texto {
+    width: 384px;
+    }
+
+    .coke-studio__saiba-mais__link {
+        display: block;
+        width: 240px;
+        text-align: center;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: var(--cor-button);
+        padding: 1.2rem 1rem;
+        margin-top: 1rem;
+        border-radius: 100px;
+    }
+
+    .seta {
+        background-image: url(assets/seta1png.png);
+        background-size: contain;
+        margin-top: 14.8%;
+    }
+
+    
+
+    /*__________________________saiba mais__________________________*/
+    .saiba-mais {
+        height: 960px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        gap: 2rem;
+        margin: -45px 0 0 0;
+        padding: 0rem;
+        border: 0px solid black;
+        z-index: 1;
+
+        
+    }
+
+    .saiba-mais__imagem {
+        display: block;
+        background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
+        background-position: center left;
+        background-position-x: 45%;
+        width: 45rem;
+        height: 960px;
+        width: 720px;
+    } 
+
+    .saiba-mais__conteudo {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 209px;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 2.5rem;
+        
+    }
+
+    .saiba-mais__texto {
+        font-size: 1.5rem;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .saiba-mais__link {
+        font-size: 1rem;
+        width: 280px;
+        padding: 1.5rem 0rem;
+        text-align: center;
+        font-weight: 500;
+        
+    }
+
+    .saiba-mais__asterisco {
+        margin: 1rem 0px 0px;
+    }
+
+    /*__________________________ofertas__________________________*/
+    .ofertas {
+        height: 395px;
+        width: 1216px;
+        top: 1710.5px;
+        left: 112px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ofertas__conteudo{
+        height: 395px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .ofertas__titulo {
+        font-size: 3.5rem;
+        font-weight: 700;
+        width: 747px;
+    }
+
+    .ofertas__link {
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 1.5rem 0rem;
+        
+    }
+
+    /*__________________________coke-sem-acucar__________________________*/
+    .coke-sem-acucar{
+        height: 800px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        padding: 0;
+        padding-left: 14.5rem;
+        text-align: left;
+    }
+
+    .coke-sem-acucar__imagem-mobile{
+        display: none;
+    }
+
+    .coke-sem-acucar__imagem-desktop{
+        display: block;
+        margin-top: 24rem;
+        /* margin-left: -2rem; */
+        margin-right: 10rem;
+    }
+
+    .coke-sem-acucar__conteudo {
+        margin-top: 1rem;
+    }
+
+    .coke-sem-acucar__texto-menor {
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 8rem;
+    }
+
+    .coke-sem-acucar__titulo {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__texto {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__saiba-mais {
+        display: block;
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 1.5rem 0rem;
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+    /*__________________________localizacao__________________________*/
+
+    .localizacao {
+        height: 993px;
+        margin: -1px 0px 0px 0px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .localizaca__texto-menor{
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+        position: relative;
+        left: 60%;
+    }
+
+    .localizacao__titulo {
+        width: 397px;
+        font-size: 3.5rem;
+        font-weight: 600;
+        margin: 0rem 0rem 2rem 0rem;
+        position: relative;
+        top: 0%;
+        left: 60%;
+    }
+
+    .localizacao__link {
+        width: 280px;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--cor-button);
+        padding: 1.5rem 0rem;
+        margin-bottom: 2rem;
+        border-radius: 100px;
+        position: relative;
+        left: 60%;
+        top: 0%;
+    }
+
+    /*__________________________resgate__________________________*/
+
+    .resgate {
+        background-image: url(assets/ticket1.png);
+        background-size: contain;
+        height: 544px;
+        padding-top: 0rem;
+        margin: -258px 100px 0px 100px;
+        z-index: 3;
+    }
+
+    .resgate__conteudo {
+        position: relative;
+        margin: 0 0rem;
+        top: 108px;
+        left: 104px;
+    }
+
+    .resgate__titulo {
+        width: 620px;
+        font-size: 3.5rem;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0rem;
+        margin: 0rem 0rem 2rem 0rem;
+    }
+
+    .resgate__texto {
+        width: 550px;
+        font-size: 1rem;
+        padding-right: 10rem;
+        margin: 0.5rem 0 3.5rem 0.5rem;
+    }
+
+    .resgate__link {
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 1.3rem 4rem;
+        margin-top: 0px;
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+    /*__________________________cadastro__________________________*/
+    .cadastro {
+       
+        height: 1128px;
+        background-image: url(assets/cadastre-se1.png);
+        /* background-position: cover; */
+        margin: -296px 0px 0px 0px;
+        border-radius: 0px;
+        background-position: 45% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .cadastro__titulo {
+        width: 380px;
+        font-size: 3.5rem;
+        font-weight: 600;
+        text-align: left;
+        position: relative;
+        top: 0%;
+        left: 61%;
+        margin: 0rem 0rem 2rem 0rem;
+    }
+    .cadastro__link {
+        width: 280px;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--cor-button);
+        padding: 1.5rem 0rem;
+        top: 0%;
+        left: 0%;
+        position: relative;
+        top: 0%;
+        left: 61%;
+    }
+
+    /*__________________________rodape__________________________*/
+    .rodape-mobile {
+        display: none;
+    }
+
+    .rodape-desk {
+        display: block;
+    }
+
+    .rodape-desk__conteudo{
+        background-color: #0B0B0B;
+        height: 320px;
+        color: white;
+        display: flex;
+        align-items: flex-start;
+        gap: 66px;
+        padding-top: 82px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .rodape-desk__logo {
+        width: 174px;
+    }
+    
+    .rodape-desk__item-lista {
+        font-size: 0.75rem;
+        line-height: 30px;
+        list-style-type: none;
+    }
+
+    .rodape-desk__buttom {
+        display: block;
+    }
+
+    .rodape-desk__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        width: 235px;
+    }
+
+    .rodape-desk__buttom {
+        font-size: 1rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 1rem 2rem;
+    }
+
+    .rodape-desk__buttom:hover {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+
+    .whatsapp {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* .rodape-desk__cadastro {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+    }
+
+    .rodape-desk__cadastro:hover {
+        background-color: #0B0B0B;
+        color: white;
+        transition: 0.5s;
+    } */
+
+
+    .rodape-desk__expediente-social {
+        height: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .rodape-desk__expediente {
+        font-size: 0.75rem;
+    }
+
+    .rodape-desk__expediente__lista {
+        line-height: 30px;
+    }
+
+    .rodape-desk__expediente__item {
+        font-size: 0.75rem;
+        list-style-type: none;
+    }
+
+    .rodape-desk__item-lista-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .rodape-desk__item-lista-link:hover {
+        color: #F40000;
+        /* font-weight: 700; */
+    }
+
+    .rodape-desk__redes-sociais__icons {
+        width: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+
+    .rodape-desk__asterisco {
+        background-color: #0B0B0B;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        padding: 0px 184px 19px 184px;
+    }
+
+    .rodape-desk__copy {
+        height: 72px;
+        background-color: #1C1C1C;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*______________________tablet protrait______________________*/
+@media screen and (min-width: 750px) and (max-width: 992px){
+
+    /*__________________header__________________*/
+    .container {
+        justify-content: space-between;
+    }
+
+    .cabecalho__imagem {
+        padding: 1em 0rem 1.5rem 2.5rem;
+        
+    } 
+
+    .header__nav {
+        color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    .header__link__entrar {
+    margin-left: 0rem;
+    padding: 0.5rem 2rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    } 
+
+    /*__________________studio__________________*/
+
+    .coke-studio{
+        position: relative;
+        height: 650px;
+    }
+
+    .coke-studio__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 2rem;
+        padding-top: 16rem;
+    }
+
+    .coke-studio__titulo {
+        font-size: 3rem;
+        width: 524px;
+        margin-bottom: 0;
+    }
+
+    .coke-studio__texto {
+    width: 300px;
+    font-size: 0.9rem;
+    }
+
+    .coke-studio__saiba-mais__link {
+        display: block;
+        width: 240px;
+        text-align: center;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: var(--cor-button);
+        padding: 1.2rem 1rem;
+        margin-top: 1rem;
+        border-radius: 100px;
+    }
+
+    .seta {
+        background-image: url(assets/seta1png.png);
+        background-size: contain;
+        margin-top: 11%;
+    }
+
+    /*__________________saiba mais__________________*/
+    .saiba-mais {
+        height: 610px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: flex-start;
+        gap: 0rem;
+        margin: -45px 0 0 0;
+        padding: 0rem;
+        border: 0px solid black;
+        z-index: 1;
+
+        
+    }
+
+    .saiba-mais__imagem {
+        display: block;
+        background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
+        background-position: center left;
+        background-size: cover;
+        background-position-x: 40%;
+        height: 610px;
+        width: 385px;
+    } 
+
+    .saiba-mais__conteudo {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        margin-top: 95px;
+        margin-left: 30px;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 2rem;
+        width: 290px;  
+    }
+
+    .saiba-mais__texto {
+        width: 290px;
+        font-size: 1rem;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .saiba-mais__link {
+        font-size: 1rem;
+        width: 210px;
+        padding: 1rem 0rem;
+        text-align: center;
+        font-weight: 500;
+        
+    }
+
+    .saiba-mais__asterisco {
+        margin: 1rem 0px 0px;
+    }
+
+    /*__________________ofertas__________________*/
+    .ofertas {
+        background-color: var(--preto-acinzentado);
+        color: var(--cor-de-fundo);
+        border-radius: 16px;
+        text-align: center;
+        /* padding: 2.5rem 1rem 2.5rem 1rem; */
+        margin: 1.5rem 60px 1.5rem 60px ;
+        width: 620px;
+        position: absolute;
+        top: 1136px;
+        /* left: 50%; */
+        /* transform: translateX(-50%); Centraliza horizontalmente */
+        /* padding: 20px; */
+        z-index: 3;
+    }
+    
+    .ofertas__conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .ofertas__titulo {
+        font-size: 2rem;
+        font-weight: 600;
+        /* margin-bottom: 2rem; */
+        width: 410px;
+        
+    }
+    
+    .ofertas__link {
+        width: 210px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        background-color: var(--cor-button);
+        padding: 1rem 1rem;
+        border-radius: 100px;
+        
+    }
+
+    /*__________________cokes-sem-acucar_________________*/
+    .coke-sem-acucar{
+        height: 500px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        padding: 0;
+        padding-left: 2rem;
+        text-align: left;
+    }
+
+    .coke-sem-acucar__imagem-mobile{
+        display: none;
+    }
+
+    .coke-sem-acucar__imagem-desktop{
+        display: block;
+        margin-top: 14rem;
+        margin-left: 1rem;
+        height: 450px;
+    }
+
+    .coke-sem-acucar__texto-menor {
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 8rem;
+    }
+
+    .coke-sem-acucar__titulo {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__texto {
+        width: 264px;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__saiba-mais {
+        width: 210px;
+        display: block;
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        text-align: center;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1rem 0.3rem;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+    /*___________________localizacao___________________*/
+
+    .localizacao {
+        height: 500px;
+        margin: -1px 0px 0px 0px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        background-clip: border-box;
+    }
+
+    .localizaca__texto-menor{
+        display: block; 
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        margin-top: 0rem;
+        position: relative;
+        left: 60%;
+    }
+
+    .localizacao__titulo {
+        width: 280px;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0rem 0rem 1rem 0rem;
+        position: relative;
+        top: 0%;
+        left: 60%;
+    }
+
+    .localizacao__link {
+        width: 178px;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--cor-button);
+        padding: 1rem 2rem;
+        margin-bottom: 4rem;
+        border-radius: 100px;
+        position: relative;
+        left: 60%;
+        top: 0%;
+
+        
+        
+
+
+    }
+
+    /*__________________________resgate__________________________*/
+
+    .resgate {
+        background-image: url(assets/ticket1.png);
+        background-size: contain;
+        height: 558px;
+        padding-top: 0rem;
+        margin: -295px 25px 0px 25px;
+        z-index: 3;
+    }
+
+    .resgate__conteudo {
+        position: relative;
+        margin: 2rem 3rem;
+        top: 166px;
+        left: 10px;
+    }
+
+    .resgate__titulo {
+        width: 350px;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0rem;
+        padding-top: 4px;
+        margin: 0rem 0rem 1rem 1rem;
+    }
+
+    .resgate__texto {
+        width: 310px;
+        font-size: 0.75rem;
+        padding-right: 10rem;
+        margin: 0.5rem 0 2rem 1rem;
+    }
+
+    .resgate__link {
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 0.9rem 2.5rem;
+        margin-top: 0px;
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+        /*__________________________cadastro__________________________*/
+        .cadastro {
+       
+            height: 632px;
+            background-image: url(assets/cadastre-se6.png);
+            background-size: cover;
+            margin: -296px 0px 0px 0px;
+            border-radius: 0px;
+            background-position: 45% 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            z-index: 2;
+        }
+    
+        .cadastro__titulo {
+            width: 212px;
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: left;
+            position: relative;
+            top: 5%;
+            left: 60%;
+            margin: 0rem 0rem 2rem 0rem;
+        }
+        .cadastro__link {
+            /* width: 280px;
+            color: var(--cor-de-fundo);
+            font-size: 1rem;
+            text-decoration: none;
+            text-align: center;
+            background-color: var(--cor-button);
+            padding: 1.5rem 0rem;
+            top: 0%;
+            left: 0%;
+            position: relative;
+            top: 0%;
+            left: 45%; */
+
+            font-size: 1rem;
+            width: 210px;
+            padding: 1rem 0rem;
+            text-align: center;
+            font-weight: 500;
+            top: 68%;
+            left: 60%;
+        }
+
+        /*__________________________rodape__________________________*/
+    .rodape-mobile {
+        display: none;
+    }
+
+    .rodape-desk {
+        display: block;
+    }
+
+    .rodape-desk__conteudo{
+        background-color: #0B0B0B;
+        height: 276px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .rodape-desk__logo {
+        width: 174px;
+        padding-top: 5px;
+    }
+
+    .rodape-desk__navegue__lista {
+        width: 138px;
+    }
+
+    .rodape-desk__institucional__lista {
+        width: 120px;
+    }
+    
+    .rodape-desk__item-lista {
+        font-size: 0.75rem;
+        line-height: 30px;
+        list-style-type: none;
+    }
+
+    .rodape-desk__buttom {
+        display: block;
+    }
+
+    .rodape-desk__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .rodape-desk__buttom {
+        font-size: 0.75rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 0.5rem 1rem;
+        width: 134px;
+    }
+
+    .rodape-desk__buttom:hover {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+
+    .whatsapp {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* .rodape-desk__cadastro {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+    }
+
+    .rodape-desk__cadastro:hover {
+        background-color: #0B0B0B;
+        color: white;
+        transition: 0.5s;
+    } */
+
+
+    .rodape-desk__expediente-social {
+        height: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .rodape-desk__expediente {
+        font-size: 0.75rem;
+    }
+
+    .rodape-desk__expediente__lista {
+        line-height: 30px;
+    }
+
+    .rodape-desk__expediente__item {
+        font-size: 0.75rem;
+        list-style-type: none;
+    }
+
+    .rodape-desk__item-lista-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .rodape-desk__item-lista-link:hover {
+        color: #F40000;
+        /* font-weight: 700; */
+    }
+
+    .rodape-desk__redes-sociais__icons {
+        width: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+
+    .rodape-desk__asterisco {
+        background-color: #0B0B0B;
+        color: white;
+        font-size: 0.625rem;
+        font-weight: 300;
+        line-height: 16px;
+        text-align: center;
+        padding: 0px 30px 19px 30px;
+    }
+
+    .rodape-desk__copy {
+        height: 72px;
+        background-color: #1C1C1C;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/*______________________DESKTOP 1024______________________*/
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+    /*__________________________header__________________________*/
+    .container {
+        justify-content: flex-start;
+        /* gap: 6rem; */
+    }
+
+    .cabecalho__imagem {
+        padding: 1em 2rem 1rem 3.25rem;
+    } 
+
+    .header__nav {
+        color: var(--cor-de-fundo);
+        display: flex;
+        justify-content: flex-start;
+        gap: 3.75rem;
+    }
+
+    .header__link__entrar {
+    margin-left: 0.5rem;
+    padding: 0.5rem 2.5rem;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    /*__________________________studio__________________________*/
+
+    .coke-studio{
+        position: relative;
+        height: 570px;
+    }
+
+    .coke-studio__conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        margin-left: 15vw;
+        padding-top: 13rem;
+    }
+
+    .coke-studio__titulo {
+        font-size: 2.5rem;
+        width: 490px;
+        margin-bottom: 0;
+    }
+
+    .coke-studio__texto {
+    width: 384px;
+    }
+
+    .coke-studio__saiba-mais__link {
+        display: block;
+        width: 194px;
+        text-align: center;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: var(--cor-button);
+        padding: 1rem 0rem;
+        margin-top: 1rem;
+        border-radius: 100px;
+    }
+
+    .seta {
+        background-image: url(assets/seta1png.png);
+        background-size: contain;
+        margin-top: 5%;
+    }
+
+    /*__________________________saiba mais__________________________*/
+    .saiba-mais {
+        height: 682px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        /* gap: 2rem; */
+        margin: -45px 0 0 0;
+        padding: 0rem;
+        border: 0px solid black;
+        z-index: 1;
+    }
+
+    .saiba-mais__imagem {
+        display: block;
+        height: 683px;
+        width: 512px;
+        background-image: url(assets/mulher\ olhando\ a\ geladeira.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-position-x: 45%;
+    } 
+
+    .saiba-mais__conteudo {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 120px;
+        margin-left: -40px;
+    }
+
+    .saiba-mais__titulo {
+        font-size: 3rem;
+        width: 421px;
+        
+    }
+
+    .saiba-mais__texto {
+        font-size: 1rem;
+        margin: 0px 0px 0px 0px;
+        padding: 1.5rem 0 1rem 0;
+    }
+
+    .saiba-mais__link {
+        width: 194px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        background-color: var(--cor-button);
+        padding: 1rem 0rem;
+        margin-top: 0rem;
+        border-radius: 100px;
+    }
+
+    .saiba-mais__asterisco {
+        margin: 1rem 0px 0px;
+    }
+
+    /*__________________________ofertas__________________________*/
+    .ofertas {
+        height: 265px;
+        width: 883px;
+        top: 1131.5px;
+        left: 72px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ofertas__conteudo{
+        height: 395px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .ofertas__titulo {
+        font-size: 2rem;
+        font-weight: 700;
+        width: 450px;
+        margin-top: -127px;
+        margin-bottom: 1rem;
+    }
+
+    .ofertas__link {
+    font-size: 1rem;
+    font-weight: 500;
+    /* width: 230px; */
+    padding: 1rem 2rem;
+    }
+
+    /*__________________________coke-sem-acucar__________________________*/
+    .coke-sem-acucar{
+        height: 664px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        padding: 0;
+        padding-left: 5.5rem;
+        text-align: left;
+    }
+
+    .coke-sem-acucar__imagem-mobile{
+        display: none;
+    }
+
+    .coke-sem-acucar__imagem-desktop{
+        display: block;
+        margin-top: 16rem;
+        margin-left: 0rem;
+        margin-right: 10rem;
+        padding-left: 0rem;
+        height: 606px;
+    }
+
+    .coke-sem-acucar__conteudo {
+        margin-top: 1rem;
+    }
+
+    .coke-sem-acucar__texto-menor {
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 8rem;
+    }
+
+    .coke-sem-acucar__titulo {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__texto {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .coke-sem-acucar__saiba-mais {
+        display: block;
+        width: 220px;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        padding: 1.2rem 0rem;
+        margin-top: 0rem;
+        border-radius: 100px;
+    }
+
+    /*__________________________localizacao__________________________*/
+
+    .localizacao {
+        background-image: url(assets/brinde2.png);
+        height: 764px;
+        background-position: calc(45%);
+        margin: -1px 0px 0px 0px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .localizaca__texto-menor{
+        display: block;
+        font-size: 0.75rem;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 0rem;
+        position: relative;
+        left: 52%;
+    }
+
+    .localizacao__titulo {
+        width: 397px;
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 0rem 0rem 2rem 0rem;
+        position: relative;
+        top: 0%;
+        left: 52%;
+    }
+
+    .localizacao__link {
+        width: 280px;
+        color: var(--cor-de-fundo);
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--cor-button);
+        padding: 1.5rem 0rem;
+        margin-bottom: 2rem;
+        border-radius: 100px;
+        position: relative;
+        left: 52%;
+        top: 0%;
+    }
+
+    /*__________________________resgate__________________________*/
+
+    .resgate {
+        background-image: url(assets/ticket1.png);
+        background-size: contain;
+        height: 558px;
+        padding-top: 0rem;
+        margin: -295px 40px 0px 40px;
+        z-index: 3;
+    }
+
+    .resgate__conteudo {
+        position: relative;
+        margin: 2rem 3rem;
+        top: 145px;
+        left: 10px;
+    }
+
+    .resgate__titulo {
+        width: 451px;
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: left;
+        padding-right: 0rem;
+        padding-top: 0px;
+        margin: 0rem 0rem 1rem 0rem;
+    }
+
+    .resgate__texto {
+        width: 310px;
+        font-size: 1rem;
+        padding-right: 10rem;
+        margin: 0rem 0 2rem 0rem;
+    }
+
+    .resgate__link {
+        color: var(--cor-de-fundo);
+        background-color: var(--preto-acinzentado);
+        font-size: 1rem;
+        font-weight: 500;
+        width: 280px;
+        padding: 0.9rem 2.5rem;
+        margin-top: 0px;
+        text-decoration: none;
+        border-radius: 100px;
+        text-align: center;
+    }
+
+    /*__________________________cadastro__________________________*/
+    .cadastro {
+    
+        height: 766px;
+        background-image: url(assets/cadastre-se6.png);
+        background-size: cover;
+        margin: -296px 0px 0px 0px;
+        border-radius: 0px;
+        background-position: 45% 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .cadastro__titulo {
+        width: 318px;
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: left;
+        position: relative;
+        top: 5%;
+        left: 57%;
+        margin: 0rem 0rem 4rem 0rem;
+    }
+    
+    .cadastro__link {
+        font-size: 1rem;
+        width: 256px;
+        padding: 1rem 0rem;
+        text-align: center;
+        font-weight: 500;
+        top: 68%;
+        left: 57%;
+    }
+
+    /*__________________________rodape__________________________*/
+    .rodape-mobile {
+        display: none;
+    }
+
+    .rodape-desk {
+        display: block;
+    }
+
+    .rodape-desk__conteudo{
+        background-color: #0B0B0B;
+        height: 276px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 47px;
+        padding-top: 48px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .rodape-desk__logo {
+        width: 174px;
+        padding-top: 5px;
+    }
+
+    .rodape-desk__navegue__lista {
+        width: 138px;
+    }
+
+    .rodape-desk__institucional__lista {
+        width: 120px;
+    }
+    
+    .rodape-desk__item-lista {
+        font-size: 0.75rem;
+        line-height: 30px;
+        list-style-type: none;
+    }
+
+    .rodape-desk__buttom {
+        display: block;
+    }
+
+    .rodape-desk__buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .rodape-desk__buttom {
+        font-size: 0.75rem;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 0.5rem 1rem;
+        width: 134px;
+    }
+
+    .rodape-desk__buttom:hover {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+
+    .whatsapp {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* .rodape-desk__cadastro {
+        background-color: white;
+        color: #0B0B0B;
+        font-weight: 500;
+    }
+
+    .rodape-desk__cadastro:hover {
+        background-color: #0B0B0B;
+        color: white;
+        transition: 0.5s;
+    } */
+
+
+    .rodape-desk__expediente-social {
+        height: 215px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .rodape-desk__expediente {
+        font-size: 0.75rem;
+    }
+
+    .rodape-desk__expediente__lista {
+        line-height: 30px;
+    }
+
+    .rodape-desk__expediente__item {
+        font-size: 0.75rem;
+        list-style-type: none;
+    }
+
+    .rodape-desk__item-lista-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .rodape-desk__item-lista-link:hover {
+        color: #F40000;
+        /* font-weight: 700; */
+    }
+
+    .rodape-desk__redes-sociais__icons {
+        width: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 28px;
+    }
+
+    .rodape-desk__asterisco {
+        background-color: #0B0B0B;
+        color: white;
+        font-size: 0.625rem;
+        font-weight: 300;
+        line-height: 16px;
+        text-align: center;
+        padding: 0px 40px 19px 40px;
+    }
+
+    .rodape-desk__copy {
+        height: 72px;
+        background-color: #1C1C1C;
+        color: white;
+        font-size: 0.625rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+            
+
+
+
+  
